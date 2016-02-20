@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <script src="js/libs/angular.js"></script>
+    <script src="js/libs/ag-grid.js"></script>
+    <script src="js/app/app.js"></script>
+</head>
+<body ng-app="testapp">
+    Monitoring
+    <br/>
+
+    <div ng-controller="MonitoringController">
+        <br/>
+        Deposit
+        <div ag-grid="depositGridOptions" class="ag-fresh common-grid"></div>
+        <br/>
+        Withdrawal
+        <div ag-grid="withdrawalGridOptions" class="ag-fresh common-grid"></div>
+        <br/>
+        Transfer
+        <div ag-grid="transferGridOptions" class="ag-fresh common-grid"></div>
+    </div>
+</body>
+</html>

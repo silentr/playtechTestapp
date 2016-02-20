@@ -1,0 +1,7 @@
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+local.properties
+.DS_Store
